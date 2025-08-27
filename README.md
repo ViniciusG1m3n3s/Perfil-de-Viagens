@@ -69,7 +69,7 @@ This project is under the MIT license. Feel free to use it for your own projects
 
 ## ✨ Author
 
-Created by [Your Name] during the Rocketseat FDev Fullstack course.
+Created by Vinícius Gimenes during the Rocketseat Dev Fullstack course.
 
 ## 🚀 Acknowledgments
 
