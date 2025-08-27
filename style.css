@@ -136,6 +136,23 @@ footer {
     margin-right: auto;
 }
 
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.line {
+    width: 25px;
+    border: 2px solid var(--brand-color);
+    border-radius: 2px;
+    display: none;
+}
+
 @media (max-width: 600px) {
     .profile-info  {
         flex-direction: column;
@@ -173,5 +190,17 @@ footer {
 
     .trademark {
         margin: 0;
+    }
+
+    .search-icon, .header-p {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .line {
+        display: block;
     }
 }
